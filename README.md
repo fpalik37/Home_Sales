@@ -35,11 +35,11 @@ The following information was programmatically determined, as can be seen in the
 
 •	The performance results of processing our home sales data is as follows:
 
-o	Run time of Spark SQL query  1.028 seconds
+o	Run time of Spark SQL query --> 1.028 seconds
 
-o	Run time of Spark SQL query on cached table   0.44 seconds
+o	Run time of Spark SQL query on cached table --> 0.44 seconds
 
-o	Run time utilizing parquet partitioning  0.73 seconds
+o	Run time utilizing parquet partitioning --> 0.73 seconds
 
 
 •	As expected, the performance significantly improved when running Spark SQL on a cached table – from **1.028 seconds** on the non-cached, to less than half that (**0.44 seconds**) on the cached.
